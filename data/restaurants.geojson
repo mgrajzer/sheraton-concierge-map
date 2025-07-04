@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "restaurants",
+"features": [
+{ "type": "Feature", "properties": { "restaurant": "Restaurant Mirabell", "google_rev": "4,0", "trip_advis": "4,2", "falstaff_r": "0", "michelin_r": "0", "gault_mill": 0, "phone_numb": "0662 889994039", "address": "Auerspergstrasse 4", "team_revie": "NA", "guests_rev": "NA", "italian_co": 0, "asian_cous": 0, "chinese_co": 0, "japanese_c": 0, "indian_cou": 0, "austrian_c": 1, "bavarian_c": 0, "greek_cous": 0, "turkish_co": 0, "mexican_co": 0, "american_c": 0, "mediterran": 0, "vegan_cous": 0, "vegetarian": 1, "fusion_cou": 0, "pizza": 0, "pasta": 1, "sushi": 0, "steak": 0, "burger": 0, "bbq": 1, "fish": 0, "seafood": 0, "salad": 1, "sandwich": 0, "soup": 1, "noodles": 1, "dumplings": 0, "sausages": 0, "kebab": 0, "tapas": 0, "curry": 0, "ribs": 0, "bowls": 0, "wiener_sch": 1, "tafelspitz": 0, "gulasch": 0, "kalbschnit": 0, "schweinsbr": 0, "wildgerich": 0, "apfelstrud": 0, "sachertort": 0, "kaiserschm": 0, "salzburger": 1, "gugelhupf": 0, "austrian_1": 0, "linzer_tor": 0, "beer_garde": 0, "cocktail_b": 0, "pet_friend": 1, "wheelchair": 1, "live_music": 1, "rooftop": 0, "outdoor_se": 1, "view": 0, "breakfast": 1, "brunch": 1, "lunch": 0, "dinner": 1, "open_late": 0, "cash_only": 0, "credit_car": 1, "vegan_opti": "0", "vegetari_1": "Portobello Mushroom, Gorgonzola Pasta", "gluten_fre": "NA", "lactose_fr": "NA" }, "geometry": { "type": "Point", "coordinates": [ 13.0408107, 47.8069008, 0.0 ] } }
+]
+}
