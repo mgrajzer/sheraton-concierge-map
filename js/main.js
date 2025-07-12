@@ -30,6 +30,13 @@ if (zoomControlContainer) {
         console.log('Filter button clicked!');
     };
 	
+	const eventsButton = L.DomUtil.create('a', 'leaflet-control-filter', zoomControlContainer);
+  eventsButton.innerHTML = '<i class="fa-solid fa-calendar"></i>';
+  eventsButton.title = 'Events Calendar';
+  eventsButton.href = 'https://www.salzburg.info/en/events/events-calendar';
+  eventsButton.target = '_blank';
+  eventsButton.rel = 'noopener noreferrer';
+	
     const restaurantsButton = L.DomUtil.create('a', '', zoomControlContainer);
 
     restaurantsButton.innerHTML = '<i class="fa-solid fa-utensils"></i>';
