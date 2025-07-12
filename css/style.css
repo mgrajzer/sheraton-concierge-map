@@ -98,26 +98,26 @@ footer {
 /* LEAFLET ZOOM BUTTONS */
 .leaflet-bar a.leaflet-control-zoom-in,
 .leaflet-bar a.leaflet-control-zoom-out {
-  background: rgba(239, 234, 228, 0.85);
+  background: rgba(239, 234, 228, 0.85)!important;
   color: #6f625d !important;
-  font-family: 'Playfair Display', serif !important;
-  font-weight: 400;
-  font-size: 24px;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  border-radius: 1px;
-  border: 1px solid rgba(111, 98, 93, 0.2);
-  box-shadow: 0 4px 12px rgba(111, 98, 93, 0.12);
-  cursor: pointer;
-  text-align: center;
-  user-select: none;
-  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-  backdrop-filter: saturate(180%) blur(12px);
+  font-family: 'Arial' !important;
+  font-weight: 200 !important;
+  font-size: 36px!important;
+  width: 36px!important;
+  height: 36px !important;
+  line-height: 36px!important;
+  border-radius: 1px!important;
+  border: 1px solid rgba(111, 98, 93, 0.2)!important;
+  box-shadow: 0 4px 12px rgba(111, 98, 93, 0.12)!important;
+  cursor: pointer!important;
+  text-align: center!important;
+  user-select: none!important;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease!important;
+  backdrop-filter: saturate(180%) blur(12px)!important;
 }
 
 .leaflet-bar a.leaflet-control-zoom-in {
-  margin-bottom: 4px;
+  margin-bottom: 6px!important;
 }
 
 .leaflet-bar a.leaflet-control-zoom-in:hover,
@@ -125,12 +125,50 @@ footer {
   background-color: rgba(190, 173, 209, 0.8) !important;
   color: #4a453f !important;
   border-color: rgba(111, 98, 93, 0.4) !important;
-  box-shadow: 0 6px 16px rgba(111, 98, 93, 0.25);
+  box-shadow: 0 6px 16px rgba(111, 98, 93, 0.25)!important;
 }
 
 .leaflet-bar {
   border: none !important;
   box-shadow: none !important;
-  padding: 0;
-  background: transparent;
+  padding: 0!important;
+  background: transparent!important;
 }
+
+.leaflet-control-filter {
+  background: rgba(239, 234, 228, 0.85)!important;
+  color: #6f4e37 !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 200!important;
+  font-size: 24px!important;
+  width: 36px!important;
+  height: 36px!important;
+  border-radius: 1px;
+  border: 1px solid rgba(111, 98, 93, 0.2);
+  box-shadow: 0 4px 12px rgba(111, 98, 93, 0.12);
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  backdrop-filter: saturate(180%) blur(12px);
+  margin-top: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leaflet-control-filter i {
+  line-height: 36px!important;
+  font-size: 24px!important;
+  color: #6f625d!important;
+}
+
+.leaflet-control-filter:hover {
+  background-color: rgba(190, 173, 209, 0.8) !important;
+  color: #4a453f !important;
+  border-color: rgba(111, 98, 93, 0.4) !important;
+  box-shadow: 0 6px 16px rgba(111, 98, 93, 0.25);
+}
+
+
+
