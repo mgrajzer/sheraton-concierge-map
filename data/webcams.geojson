@@ -25,7 +25,5 @@
 { "type": "Feature", "properties": { "Name": "Mühlbach am Hochkönig", "embedUrl": "<iframe src=\"https://bergheimat.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 13.1157023, 47.3907525, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Rossbrand 1770m", "embedUrl": "<iframe src=\"https://radstadt.panomax.com/rossbrand\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 13.482595, 47.4145769, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "A1 Turm Vienna", "embedUrl": "<iframe src=\"https://a1-arsenal.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 16.3908056, 48.1818562, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Messe München", "embedUrl": "<iframe src=\"https://messe-muenchen.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 11.6983561, 48.1364523, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "Prague", "embedUrl": "<iframe src=\"https://prague.panomax.com/petrin-lookout-tower\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 14.3951074, 50.0835105, 0.0 ] } }
 ]
 }
