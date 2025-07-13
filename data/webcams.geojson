@@ -24,6 +24,6 @@
 { "type": "Feature", "properties": { "Name": "Saalbach", "embedUrl": "<iframe src=\"https://maisalm.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 12.6381473, 47.3990918, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Mühlbach am Hochkönig", "embedUrl": "<iframe src=\"https://bergheimat.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 13.1157023, 47.3907525, 0.0 ] } },
 { "type": "Feature", "properties": { "Name": "Rossbrand 1770m", "embedUrl": "<iframe src=\"https://radstadt.panomax.com/rossbrand\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 13.482595, 47.4145769, 0.0 ] } },
-{ "type": "Feature", "properties": { "Name": "A1 Turm Vienna", "embedUrl": "<iframe src=\"https://a1-arsenal.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 16.3908056, 48.1818562, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "A1 Turm Vienna", "embedUrl": "<iframe src=\"https://a1-arsenal.panomax.com\" style=\"width: 100%; height: 650px; border: none;\" allowfullscreen></iframe>" }, "geometry": { "type": "Point", "coordinates": [ 16.3908056, 48.1818562, 0.0 ] } }
 ]
 }

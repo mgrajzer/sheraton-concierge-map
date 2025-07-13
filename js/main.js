@@ -34,6 +34,7 @@ fetch('data/webcams.geojson')
 
 const zoomControlContainer = document.querySelector('.leaflet-control-zoom');
 
+// Weather
 if (zoomControlContainer) {
 	const weatherButton = L.DomUtil.create('a', '', zoomControlContainer);
 
