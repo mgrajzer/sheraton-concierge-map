@@ -25,7 +25,7 @@ fetch('data/webcams.geojson')
             iconSize: [28, 28],
             iconAnchor: [14, 14]
           })
-        }).bindPopup(feature.properties.embedUrl, { maxWidth: 400 });
+        }).bindPopup(feature.properties.embedUrl, { maxWidth: 1000 });
       }
     });
   });
