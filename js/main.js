@@ -12,6 +12,26 @@ var map = L.map('map', {
   layers: [BasemapAT_orthofoto]
 });
 
+let webcamLayer;
+
+fetch('data/webcams.geojson')
+  .then(response => response.json())
+  .then(data => {
+    webcamLayer = L.geoJSON(data, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {
+          icon: L.icon({
+            iconUrl: 'css/images/webcam.svg',
+            iconSize: [28, 28],
+            iconAnchor: [14, 14]
+          })
+        }).bindPopup(feature.properties.embedUrl, { maxWidth: 400 });
+      }
+    });
+  });
+  
+  
+
 const zoomControlContainer = document.querySelector('.leaflet-control-zoom');
 
 if (zoomControlContainer) {
@@ -25,10 +45,20 @@ if (zoomControlContainer) {
     weatherButton.classList.remove('leaflet-control-zoom-in');
     weatherButton.classList.add('leaflet-control-filter');
 
-    weatherButton.onclick = function (e) {
-        e.preventDefault();
-        console.log('Filter button clicked!');
-    };
+    let weatherActive = false;
+
+	weatherButton.onclick = function (e) {
+		e.preventDefault();
+		weatherActive = !weatherActive;
+
+		if (weatherActive) {
+			if (webcamLayer) map.addLayer(webcamLayer);
+			document.getElementById('weather-widget').style.display = 'block';
+		} else {
+			if (webcamLayer) map.removeLayer(webcamLayer);
+			document.getElementById('weather-widget').style.display = 'none';
+		}
+	};
 	
 	const eventsButton = L.DomUtil.create('a', 'leaflet-control-filter', zoomControlContainer);
   eventsButton.innerHTML = '<i class="fa-solid fa-calendar"></i>';
